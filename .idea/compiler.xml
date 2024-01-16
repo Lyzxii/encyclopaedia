@@ -2,22 +2,25 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="encyclopaedia-infrastructure" />
+        <module name="encyclopaedia-common" />
         <module name="encyclopaedia-application" />
         <module name="encyclopaedia-facade" />
         <module name="encyclopaedia-domain" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="encyclopaedia" options="-parameters" />
       <module name="encyclopaedia-application" options="-parameters" />
+      <module name="encyclopaedia-common" options="-parameters" />
       <module name="encyclopaedia-domain" options="-parameters" />
       <module name="encyclopaedia-facade" options="-parameters" />
       <module name="encyclopaedia-infrastructure" options="-parameters" />

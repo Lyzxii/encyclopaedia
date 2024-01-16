@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/encyclopaedia-application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/encyclopaedia-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/encyclopaedia-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/encyclopaedia-domain/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/encyclopaedia-facade/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/encyclopaedia-infrastructure/src/main/java" charset="UTF-8" />
